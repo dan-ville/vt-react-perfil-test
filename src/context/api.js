@@ -1,0 +1,1 @@
+export const apiUrl = "https://testapi.visiontravel.net/api/"; 

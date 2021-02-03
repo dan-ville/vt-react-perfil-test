@@ -1,0 +1,102 @@
+
+.foto-perfil-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.foto-perfil {
+    /* failed to make my image round */
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.btn-cargar {
+    color: #fff;
+    margin: 15px auto;
+    background-color:#7367F0;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 10px;
+}
+
+.btn-cargar:hover {
+    box-shadow: -5px 5px 10px #a1a1a1;
+    background-color: #7367F0;
+    color: #fff; 
+}
+.btn-cargar:focus {
+    box-shadow: -5px 5px 10px #a1a1a1;
+    background-color: #7367F0;
+    color: #fff; 
+}
+
+.info-perfil-div {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px #e7e7e7;
+    margin: 15px auto;
+    padding: 2%;
+    width: 75%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-usuario {
+    /* I tried to set this space as display grid but the form items won't scale down appropriately, they won't wrap. I may need to just use breakpoints? */
+    /* display: grid */
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto; */
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: inherit;
+    flex-wrap: wrap;
+}
+
+.form-item {
+    margin: 10px;
+    width: 250px;
+}
+
+.form-input-icon {
+    color: rgba(0,0,0,.45)
+}
+#footer-button {
+    margin: 2rem auto;
+    color: #fff;
+    background: linear-gradient(to right top, #7367F0, #640064);
+    border-radius: 10px;
+    height: 3rem;
+    width: 10rem;
+}
+
+#footer-button:hover {
+    box-shadow: -5px 5px 10px #a1a1a1;  
+}
+#footer-button:focus {
+    box-shadow: -5px 5px 10px #a1a1a1;  
+}
+
+#footer-text-1 {
+    font-size: 20px;
+    color: #7367F0;
+}
+
+#footer-text-2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7367F0;
+}
+
+.btn-volver {
+    background-color: grey;
+}
